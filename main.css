@@ -1,0 +1,90 @@
+@import"https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap";:root {
+    --main: #cb8bff
+}
+
+html {
+    font-family: JetBrains Mono,monospace;
+    background: #191919;
+    background-size: 224px
+}
+
+main[data-astro-cid-j7pv25f6] {
+    margin: auto;
+    padding: 1rem;
+    width: 800px;
+    max-width: calc(100% - 2rem);
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.3
+}
+
+span[data-astro-cid-j7pv25f6] {
+    color: var(--main)
+}
+
+li[data-astro-cid-j7pv25f6] {
+    list-style-type: none
+}
+
+.\,[data-astro-cid-j7pv25f6],.tech[data-astro-cid-j7pv25f6],.socials[data-astro-cid-j7pv25f6] {
+    display: flex;
+    gap: 20px
+}
+
+.icons[data-astro-cid-j7pv25f6] {
+    display: flex;
+    gap: 10px
+}
+
+.top[data-astro-cid-j7pv25f6] {
+    justify-content: space-between;
+    display: flex
+}
+
+.top[data-astro-cid-j7pv25f6] a[data-astro-cid-j7pv25f6] {
+    margin-top: 25px
+}
+
+.tech-container[data-astro-cid-j7pv25f6] {
+    cursor: pointer;
+    padding: 16px;
+    background-color: #292929;
+    border-radius: 8px;
+    text-align: center
+}
+
+.projects[data-astro-cid-j7pv25f6] {
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+.project[data-astro-cid-j7pv25f6] {
+    cursor: pointer;
+    padding: 16px;
+    background-color: #292929;
+    border-radius: 8px;
+    box-shadow: .5px .5px .5px var(--main)
+}
+
+.banner[data-astro-cid-j7pv25f6] {
+    width: 100%;
+    height: 100px;
+    object-fit: cover
+}
+
+hr[data-astro-cid-j7pv25f6] {
+    opacity: 10%
+}
+
+.tech-container[data-astro-cid-j7pv25f6]:hover,.project[data-astro-cid-j7pv25f6]:hover {
+    transform: translateY(-.25rem);
+    transition: ease-out;
+    transition-duration: .3s
+}
+
+@media only screen and (max-width: 768px) {
+    .tech[data-astro-cid-j7pv25f6] {
+        flex-direction:column
+    }
+}
